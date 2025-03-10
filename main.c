@@ -11,3 +11,20 @@ int main(){
 }
 
 ------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main(){
+    int n1;
+    printf("Digite um número inteiro: ");
+    scanf("%d" , &n1);
+        
+    if( n1 < 0){
+        printf("O número é negativo");
+    }else{
+        printf("O número é positivo");
+    }
+    return 0 ;
+}
+
+-------------------------------------------------------------------------------
