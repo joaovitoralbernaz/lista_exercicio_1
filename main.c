@@ -10,7 +10,7 @@ int main(){
     return 0 ;
 }
 
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 
@@ -27,7 +27,7 @@ int main(){
     return 0 ;
 }
 
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 
@@ -44,8 +44,8 @@ int main() {
     return 0;
 }
 
----------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------------------
+-
 Faça um programa que conte de 0 a 20, mas só imprima os números pares.
 
 #include <stdio.h>
@@ -63,7 +63,7 @@ int main() {
     return 0;
 }
 
--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
  Escreva um programa que peça ao usuário para adivinhar um número e informe se o palpite está correto.
 
 #include <stdio.h>
@@ -84,7 +84,7 @@ int main(){
     return 0;
 }
 
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
  Crie um programa que imprima os números de 10 a 1 em ordem decrescente.
 
 #include <stdio.h>
@@ -100,8 +100,8 @@ int main(){
     return 0;
 }
 
-----------------------------------------------------------------------------------------------------
-      • Faça um programa que calcule a soma dos números de 1 a 50 usando um loop while.
+-------------------------------------------------------------------------------------------------------------------
+ • Faça um programa que calcule a soma dos números de 1 a 50 usando um loop while.
 
 #include <stdio.h>
 
@@ -117,3 +117,88 @@ int main(){
     printf("A soma é: %d" , soma);
     return 0;
 }
+
+----------------------------------------------------------------------------------------------------------------------
+• Escreva um programa que solicite a idade do usuário e informe se ele é uma criança, adolescente, adulto ou idoso.
+
+#include <stdio.h>
+
+int main(){ 
+    int idd;
+    
+    printf("Digite sua idade: ");
+    scanf("%d" , &idd);
+    
+    if( idd > 65){
+        printf("Você é idoso");
+        
+    }else if ( idd > 20){
+        printf("Você é adulto");
+        
+    }else if ( idd > 13){
+        printf("Você é adolescente");
+    }else{
+        printf("Você é criança");
+    }
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+  • Crie um programa que conte de 1 a 100, mas só imprima os números divisíveis por 7.
+
+#include <stdio.h>
+
+int main(){ 
+    int n = 1;
+    printf("Os numeros divisíveis por 7 de 1 a 100 são:\n ");
+    while( n <= 100){
+        if( n % 7 == 0){
+            printf("%d\n" , n );
+        }
+        n++;
+    }
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------
+• Faça um programa que peça dois números ao usuário e imprima o maior deles.
+
+#include <stdio.h>
+
+int main(){ 
+    int a;
+    int b;
+    
+    printf("Digite o primeiro numero: ");
+    scanf("%d" , &a);
+    printf("Digite o segundo número: ");
+    scanf("%d" , &b);
+    
+    if( a > b){
+        printf("O MAIOR NÚMERO É: %d" , a);
+    }else{
+        printf("O MAIOR NÚMERO É: %d" , b);
+    }
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+  • Escreva um programa que solicite o nome do usuário e imprima uma saudação personalizada.
+
+    #include <stdio.h>
+
+int main(){
+    int n;
+    printf("Digite um número: ");
+    scanf("%d" , &n);
+    
+    if( n % 2 == 0 ){
+        printf("O número é par");
+    }else{
+        printf("O número e ímpar");
+    }
+    return 0;
+}
+    
+    
