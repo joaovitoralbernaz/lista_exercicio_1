@@ -109,7 +109,7 @@ int main(){
     int n = 1;
     int soma = 0;
     
-    while( n < 50){
+    while( n <= 50){
         soma = soma + n;
         n++;
         
