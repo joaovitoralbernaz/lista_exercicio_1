@@ -205,5 +205,71 @@ int main(){
 
  • Faça um programa que conte de 1 a 30, mas pule os números múltiplos de 3.
 
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n < 30){
+        if(n % 3 == 0){
+            n++;
+        }else{
+            printf("\n %d", n);
+            n++;
+        }
+    }
+    
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Escreva um programa que solicite dois números e informe se são iguais.
+
+#include <stdio.h>
+
+int main (){
+    int n1;
+    int n2;
+    
+    printf("Digite um número: ");
+    scanf("%d" , &n1 );
+    printf("Digite um segundo número: ");
+    scanf("%d" , &n2);
+    
+    if( n1 == n2 ){
+        printf("Os números são iguais!!");
+    }else{
+        printf("Os números são diferentes");
+    }
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Crie um programa que imprima a tabuada de multiplicação de um número fornecido pelo usuário.
+
+#include <stdio.h>
+
+int main (){
+    int a = 1;
+    int b;
+    
+    printf("Digite um número: ");
+    scanf("%d" , &b);
+    
+    while( a <= 10){
+        printf("%d \n" , a * b);
+        a++;
+        
+    }
+
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Faça um programa que conte de 1 a 100 e imprima "Fizz" para números divisíveis por 3 e "Buzz" para números divisíveis por 5. Para números que são divisíveis por ambos, imprima "FizzBuzz".
+
 
     
