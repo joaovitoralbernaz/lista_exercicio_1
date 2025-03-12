@@ -184,7 +184,7 @@ int main(){
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-  • Escreva um programa que solicite o nome do usuário e imprima uma saudação personalizada.
+ • Crie um programa que peça um número ao usuário e imprima se é ímpar ou par.
 
     #include <stdio.h>
 
@@ -201,9 +201,9 @@ int main(){
     return 0;
 }
 
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
- • Crie um programa que peça um número ao usuário e imprima se é ímpar ou par.
+ • Faça um programa que conte de 1 a 30, mas pule os números múltiplos de 3.
 
 
     
