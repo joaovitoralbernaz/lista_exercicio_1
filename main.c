@@ -271,5 +271,25 @@ int main (){
 
  • Faça um programa que conte de 1 a 100 e imprima "Fizz" para números divisíveis por 3 e "Buzz" para números divisíveis por 5. Para números que são divisíveis por ambos, imprima "FizzBuzz".
 
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n <= 100 && n >= 0){
+        if(n % 3 == 0 && n % 5 == 0){
+            printf(" %d FizzBuzz \n" , n);
+        }else if(n % 5 == 0){
+            printf(" %d Buzz \n" , n);
+        }else if(n % 3 == 0){
+            printf(" %d Fizz \n" , n);
+        }else{
+            printf("Não é divisível por nenhum dos dois \n");
+        }
+        n++;
+    }
+
+    return 0;
+}
 
     
